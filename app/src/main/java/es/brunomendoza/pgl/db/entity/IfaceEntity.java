@@ -5,7 +5,7 @@ import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 import android.support.annotation.NonNull;
 
-@Entity(tableName = "iface")
+@Entity(tableName = "ifaces")
 public class IfaceEntity {
     @PrimaryKey(autoGenerate = true)
     @NonNull
