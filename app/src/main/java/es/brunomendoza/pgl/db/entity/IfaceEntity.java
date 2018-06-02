@@ -12,6 +12,7 @@ public class IfaceEntity {
     @ColumnInfo(name = "iface_id")
     private Long id;
 
+    @NonNull
     private String name;
 
     private String ipAddress;
@@ -28,11 +29,12 @@ public class IfaceEntity {
         this.id = id;
     }
 
+    @NonNull
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(@NonNull String name) {
         this.name = name;
     }
 
